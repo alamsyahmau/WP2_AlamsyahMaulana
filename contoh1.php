@@ -7,6 +7,6 @@ class Contoh1 extends CI_Controller
         echo "Nama saya Alamsyah Maulana
               saya tinggal di daerah Tangerang
               olah raga yang saya sukai adalah
-              Futsal";
+              pusreng";
     }
 }
