@@ -5,8 +5,8 @@
 
 <body>
     <center>
-        <form action="<?= ('Matakuliah/cetak'); ?>"
-        method="post">
+        <form action="<?= base_url ('Matakuliah/cetak'); ?>"method="post">
+        <?php echo validation_errors() ?>
         <table>
             <tr>
                 <th colspan="3">
@@ -22,14 +22,14 @@
                 <th>Kode MTK</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="kode" id="kode">
+                    <input type="text" name="kode" id="kode" placeholder="required">
                 </td>
             </tr>
             <tr>
                 <th>Nama MTK</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="nama" id="nama">
+                    <input type="text" name="nama" id="nama" placeholder="required">
                 </td>
             </tr>
             <tr>
